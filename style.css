@@ -208,8 +208,18 @@ p {
 }
 
 .thumbnails a {
+<<<<<<< HEAD
+    text-decoration: none;
+    color: black;
+<<<<<<< HEAD
+    border-radius: 30px;
+=======
+    border-radius: 20px;
+=======
   text-decoration: none;
   color: black;
+>>>>>>> 045b4cf9d53eab2e1c7034f37f44bb64973ba9bf
+>>>>>>> 080ae0b2399fa36a42e5667bf9e534180918cdc4
 }
 
 .btn {
