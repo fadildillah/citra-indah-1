@@ -1,308 +1,308 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
 
 :root {
-    --base-margin: 1rem;
-    --base-padding: 1rem;
-    --responsive-padding: 1rem 4rem;
-    --base-showcase-padding: 32em 32em 4rem 4rem;
-    --columns: 1fr;
-    --base-font-size: 1rem;
-    --base-h1-font-size: 2rem;
-    --base-h2-font-size: 1.3rem;
-    --base-width: auto;
-    --width-logo: auto;
-    --width-arrow: auto;
-    --width-icons: 100%;
-    --width-thumbnail: 100%;
-    --base-margin-right: auto;
-    --base-grid-template-columns: 1fr;
-    --base-grid-template-rows: 1fr;
-    --base-border: 1.5px solid black;
+  --base-margin: 1rem;
+  --base-padding: 1rem;
+  --responsive-padding: 1rem 4rem;
+  --base-showcase-padding: 32em 32em 4rem 4rem;
+  --columns: 1fr;
+  --base-font-size: 1rem;
+  --base-h1-font-size: 2rem;
+  --base-h2-font-size: 1.3rem;
+  --base-width: auto;
+  --width-logo: auto;
+  --width-arrow: auto;
+  --width-icons: 100%;
+  --width-thumbnail: 100%;
+  --base-margin-right: auto;
+  --base-grid-template-columns: 1fr;
+  --base-grid-template-rows: 1fr;
+  --base-border: 1.5px solid black;
 }
 
 @media (max-width: 480px) {
-    :root {
-        --responsive-padding: 1rem 1.7rem;
-        --base-margin: 0.4rem;
-        --base-padding: 0.4rem;
-        --base-font-size: 0.4rem;
-        --base-h1-font-size: 1rem;
-        --base-h2-font-size: 0.9rem;
-        --base-showcase-padding: 7em 5em 0.7rem 0.7rem;
-        --base-margin-right: 0;
-        --width-arrow: 50%;
-        --width-icons: 65%;
-        --width-thumbnail: 50%;
-        --base-width: auto;
-        --width-logo: 75%;
-        --base-border: 0.75px solid black;
-    }
+  :root {
+    --responsive-padding: 1rem 1.7rem;
+    --base-margin: 0.4rem;
+    --base-padding: 0.4rem;
+    --base-font-size: 0.4rem;
+    --base-h1-font-size: 1rem;
+    --base-h2-font-size: 0.9rem;
+    --base-showcase-padding: 7em 5em 0.7rem 0.7rem;
+    --base-margin-right: 0;
+    --width-arrow: 50%;
+    --width-icons: 65%;
+    --width-thumbnail: 50%;
+    --base-width: auto;
+    --width-logo: 75%;
+    --base-border: 0.75px solid black;
+  }
 
-    .main-header {
-        flex-direction: column;
-        justify-content: center;
-    }
+  .main-header {
+    flex-direction: column;
+    justify-content: center;
+  }
 
-    .about img {
-        display: none;
-    }
+  .about img {
+    display: none;
+  }
 
-    .description {
-        text-align: center;
-    }
+  .description {
+    text-align: center;
+  }
 
-    .description p {
-        line-height: 1.5;
-    }
+  .description p {
+    line-height: 1.5;
+  }
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
-    color: #4e4e4e;
-    font-size: var(--base-h1-font-size);
-    padding: var(--base-padding) 0;
+  color: #4e4e4e;
+  font-size: var(--base-h1-font-size);
+  padding: var(--base-padding) 0;
 }
 
 h2 {
-    font-size: var(--base-h2-font-size);
+  font-size: var(--base-h2-font-size);
 }
 
 h5 {
-    color: #d6d6d6;
-    font-weight: bold;
+  color: #d6d6d6;
+  font-weight: bold;
 }
 
 p {
-    font-size: var(--base-font-size);
-    color: #989696;
+  font-size: var(--base-font-size);
+  color: #989696;
 }
 
 .main-header {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: var(--responsive-padding);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: var(--responsive-padding);
 }
 
 .logo {
-    cursor: pointer;
-    width: var(--width-logo);
-    margin-right: var(--base-margin-right);
+  cursor: pointer;
+  width: var(--width-logo);
+  margin-right: var(--base-margin-right);
 }
 
 .nav-links {
-    display: inline-block;
-    list-style: none;
+  display: inline-block;
+  list-style: none;
 }
 
 .nav-links img {
-    width: var(--width-icons);
+  width: var(--width-icons);
 }
 
 .nav-links li {
-    display: inline-block;
-    margin: var(--base-margin);
+  display: inline-block;
+  margin: var(--base-margin);
 }
 
 .section-1 {
-    padding: var(--responsive-padding);
+  padding: var(--responsive-padding);
 }
 
 .showcase {
-    display: grid;
-    grid-auto-flow: row;
-    background-color: rgba(0, 0, 0, 0.2);
-    background-image: url(asset/header-citra-indah.png);
-    background-blend-mode: overlay;
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: var(--base-width);
+  display: grid;
+  grid-auto-flow: row;
+  background-color: rgba(0, 0, 0, 0.2);
+  background-image: url(asset/header-citra-indah.png);
+  background-blend-mode: overlay;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: var(--base-width);
 }
 
 .showcase-caption {
-    padding: var(--base-showcase-padding);
+  padding: var(--base-showcase-padding);
 }
 
 .showcase-caption h1 {
-    color: white;
-    font-size: 3em;
-    padding-top: 0;
+  color: white;
+  font-size: 3em;
+  padding-top: 0;
 }
 
 .showcase-caption p {
-    color: white;
-    line-height: 1.6;
+  color: white;
+  line-height: 1.6;
 }
 
 .section-2 {
-    padding: var(--responsive-padding);
+  padding: var(--responsive-padding);
 }
 
 .about {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 .about img {
-    width: auto;
-    margin: 3em;
+  width: auto;
+  margin: 3em;
 }
 
 .description {
-    display: grid;
-    align-self: center;
-    padding: 0 2.5rem;
+  display: grid;
+  align-self: center;
+  padding: 0 2.5rem;
 }
 
 .description h1 {
-    padding-top: 0;
-    font-size: 3em;
+  padding-top: 0;
+  font-size: 3em;
 }
 
 .description p {
-    line-height: 1.6;
+  line-height: 1.6;
 }
 
 .section-3 {
-    padding: var(--responsive-padding);
+  padding: var(--responsive-padding);
 }
 
 .cluster {
-    display: grid;
-    text-align: center;
+  display: grid;
+  text-align: center;
 }
 
 .properties {
-    padding-bottom: var(--base-padding);
-    text-align: center;
+  padding-bottom: var(--base-padding);
+  text-align: center;
 }
 
 .properties h1 {
-    padding-top: 0;
-    font-size: 3em;
+  padding-top: 0;
+  font-size: 3em;
 }
 
 .card-cluster {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .thumbnails {
-    padding: var(--base-padding);
+  padding: var(--base-padding);
 }
 
 .thumbnails h2 {
-    padding-bottom: 0.5rem;
-    font-size: 1.5em;
+  padding-bottom: 0.5rem;
+  font-size: 1.5em;
 }
 
 .img-thumbnail {
-    width: var(--width-thumbnail);
+  width: var(--width-thumbnail);
 }
 
 .thumbnails a {
-    border-radius: 30px;
-    text-decoration: none;
-    color: black;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #fff;
 }
 
 .btn {
-    display: inline-flex;
-    cursor: pointer;
-    font-size: var(--base-font-size);
-    padding: var(--base-padding);
-    border: var(--base-border);
-    background-color: black;
-    text-decoration: none;
-    color: black;
+  display: inline-flex;
+  cursor: pointer;
+  font-size: var(--base-font-size);
+  padding: var(--base-padding);
+  border: var(--base-border);
+  background-color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .btn {
-    display: inline-flex;
-    cursor: pointer;
-    font-size: var(--base-font-size);
-    padding: var(--base-padding);
-    border: var(--base-border);
+  display: inline-flex;
+  cursor: pointer;
+  font-size: var(--base-font-size);
+  padding: var(--base-padding);
+  border: var(--base-border);
 }
 
 .btn img {
-    width: var(--width-arrow);
+  width: var(--width-arrow);
 }
 
 .btn:hover {
-    color: gray;
+  color: gray;
 }
 
 .thumbnails span {
-    padding-left: var(--base-padding);
+  padding-left: var(--base-padding);
 }
 
 .section-4 {
-    padding: var(--responsive-padding);
+  padding: var(--responsive-padding);
 }
 
 .details-contact {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    margin: var(--base-margin) auto;
-    font-size: var(--base-font-size);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin: var(--base-margin) auto;
+  font-size: var(--base-font-size);
 }
 
 .map img {
-    width: 100%;
+  width: 100%;
 }
 
 .contact {
-    background-color: black;
-    padding: 2rem;
+  background-color: black;
+  padding: 2rem;
 }
 
 .contact h1 {
-    color: white;
-    font-size: var(--base-h1-font-size);
+  color: white;
+  font-size: var(--base-h1-font-size);
 }
 
 .contact p {
-    color: white;
-    padding-top: var(--base-padding);
+  color: white;
+  padding-top: var(--base-padding);
 }
 
 .list-item {
-    display: grid;
-    grid-template-columns: 30px 1fr;
+  display: grid;
+  grid-template-columns: 30px 1fr;
 }
 
 .list-item p {
-    color: white;
-    padding: 0.5rem;
-    font-size: var(--base-font-size);
+  color: white;
+  padding: 0.5rem;
+  font-size: var(--base-font-size);
 }
 
 .list-item span {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .address {
-    padding: 0.5rem 0;
+  padding: 0.5rem 0;
 }
 
 .wasaf {
-    margin: auto;
-    width: 100%;
-    max-width: 25px;
+  margin: auto;
+  width: 100%;
+  max-width: 25px;
 }
 
 footer {
-    text-align: center;
-    color: #555555;
-    font-weight: bold;
-    font-size: var(--base-font-size);
-    margin: 4rem;
+  text-align: center;
+  color: #555555;
+  font-weight: bold;
+  font-size: var(--base-font-size);
+  margin: 4rem;
 }
