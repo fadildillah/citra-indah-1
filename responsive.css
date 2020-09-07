@@ -1,0 +1,24 @@
+@media screen and (max-width: 720px) {
+  .properties h1 {
+    font-size: 2em;
+  }
+
+  .thumbnails h2 {
+    font-size: 1em;
+  }
+
+  .section-3 .properties h1,
+  .section-2 .description h1,
+  .section-1 .showcase-caption h1 {
+    font-size: 1.7em;
+  }
+
+  .wasaf {
+    width: 100%;
+    max-width: 20px;
+  }
+
+  .list-item {
+    grid-template-columns: 18px 1fr;
+  }
+}
