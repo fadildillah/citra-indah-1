@@ -193,7 +193,7 @@ p {
 
 .thumbnails a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .btn {
@@ -202,6 +202,7 @@ p {
     font-size: var(--base-font-size);
     padding: var(--base-padding);
     border: var(--base-border);
+    background-color: black;
 }
 
 .btn img {
