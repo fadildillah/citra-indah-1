@@ -194,6 +194,7 @@ p {
 .thumbnails a {
     text-decoration: none;
     color: black;
+    border-radius: 20px;
 }
 
 .btn {
