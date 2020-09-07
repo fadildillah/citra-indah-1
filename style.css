@@ -208,8 +208,9 @@ p {
 }
 
 .thumbnails a {
+    border-radius: 30px;
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .btn {
